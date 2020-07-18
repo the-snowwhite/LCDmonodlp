@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
     // Parse Args
     if (argc < 4) {
         printf("Usage: %s infile invert outfile.\n", argv[0]);
-        printf("EX: %s ppmmonodlp infile.pbm 0(1 enables) fb.ppm.\n", argv[0]);
+        printf("EX: %s infile.pbm 0(1 enables) fb.ppm.\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
