@@ -15,6 +15,21 @@ Input: a raw monochrome pbm file (in monochrome LCD subpixel resolution)
 
 Output: a subpixel separated ppm image file. (fb.pmm)
 
+# Setup:
+
+    git clone https://github.com/the-snowwhite/LCDmonodlp.git
+    cd LCDmonodlp
+    make                   (compiles file)
+    Sudo make install      (installs binary to /usr/bin
+    
+if you wish to uninstall again type:
+
+    sudo make uninstall
+
+# usage
+
+    ppmmonodlp infile invert(int) outfile
+
 Whole Method:
 ===
 Kicad:
@@ -43,7 +58,7 @@ Convert the pbm file into a ppm file:
 ---
 (where the former pixels are separated out into r,g,b subpivels.)
 
->   ./ppmmonodlp print.pbm 0 fb.ppm
+>   ppmmonodlp print.pbm 0 fb.ppm
 
 (source in this repo)
 
