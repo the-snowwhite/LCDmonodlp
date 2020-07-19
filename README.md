@@ -11,9 +11,9 @@ Created with the purpose of placing a soldermask on milled out pcb's
 
 Initial file: a 1:1 pdf file (Adafruit JTAG to SWD Adapter_for_print-F_Paste.pdf)
 
-Input: a raw monochrome pbm file (in monochrome LCD subpixel resolution)
+Input: a raw monochrome pbm file (P4)(in monochrome LCD subpixel resolution)
 
-Output: a subpixel separated ppm image file. (fb.pmm)
+Output: a subpixel separated ppm image file. (fb.ppm)(P5)
 
 # Setup:
 
@@ -28,7 +28,7 @@ if you wish to uninstall again type:
 
 # usage
 
-    ppmmonodlp infile invert(int) outfile
+    ppmmonodlp infile.pbm invert(int) outfile.ppm
 
 Whole Method:
 ===
